@@ -45,7 +45,7 @@ console.log(somma); */
 
 // *********** Snack 4 ***********
 
-//In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
+/* //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
 var listaInvitati = ['giorgio', 'andrea', 'gianmarco', 'michele', 'leonardo', 'domenico', 'eduardo', 'davide', 'riccardo'];
 
 //chiedi all’utente il suo nome 
@@ -64,4 +64,20 @@ if (personaInLista){
     alert('Benvenuto alla festa');
 } else {
     alert('Purtroppo non sei tra gli invitati');
+} */
+
+
+// *************** Snack 5 ***************
+//Crea un array vuoto.
+var numUtente = [];
+
+//Chiedi per 6 volte all’utente di inserire un numero
+for (var i = 0; i < 6; i++) {
+    var domanda = prompt('Inserisci un numero');
+    console.log(domanda);
+    //se è dispari inseriscilo nell’array. 
+    if (domanda % 2 != 0) {
+        numUtente.push(domanda)
+    }
 }
+console.log(numUtente);
