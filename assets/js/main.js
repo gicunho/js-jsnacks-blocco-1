@@ -46,10 +46,11 @@ console.log(somma); */
 // *********** Snack 4 ***********
 
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, 
-var listaInvitati = ['Giorgio', 'Andrea'];
+var listaInvitati = ['giorgio', 'andrea', 'gianmarco', 'michele', 'leonardo', 'domenico', 'eduardo', 'davide', 'riccardo'];
 
 //chiedi all’utente il suo nome 
-var nomePersona = prompt('Qual è il tuo nome?');
+var nomePersona = prompt('Qual è il tuo nome?').toLowerCase();
+console.log(nomePersona);
 var personaInLista = false;
 
 //e comunicagli se può partecipare o no alla festa. 
