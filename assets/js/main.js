@@ -100,6 +100,8 @@ for (var i = 1; i <= numero; i++) {
 
 // *************** Snack 8 ***************
 
+
+/*  SOLUZIONE 1
 var numero = [];
 var somma = 0;
 for (var i=0; i < 4; i++) {
@@ -110,3 +112,18 @@ for (var i=0; i < 4; i++) {
     somma = somma + numero[i];
 }
 console.log(somma);
+    /SOLUZIONE 1*/
+
+//Chiedi un numero di 4 cifre all’utente
+var numero = Number(prompt('Inserisci un numero di 4 cifre'));
+if (numero.toString().length != 4) {
+    alert('ATTENZIONE! Il numero dev\'essere di 4 cifre!')
+}
+
+sum = 0;
+
+while (numero) {
+    sum += numero % 10;
+    numero = Math.floor(numero / 10);
+}
+console.log(sum);
