@@ -66,7 +66,7 @@ if (personaInLista){
     alert('Purtroppo non sei tra gli invitati');
 } */
 
-
+/* 
 // *************** Snack 5 ***************
 //Crea un array vuoto.
 var numUtente = [];
@@ -81,3 +81,15 @@ for (var i = 0; i < 6; i++) {
     }
 }
 console.log(numUtente);
+ */
+
+// *************** Snack 6 ***************
+
+//dove N è un numero indicato dall’utente.
+var numero = Number(prompt('Inserisci un numero'));
+
+for (var i = 1; i <= numero; i++) {
+    var cubo = Math.pow(i, 3);
+    // Stampa il cubo dei primi N numeri,
+    console.log(cubo);
+}
