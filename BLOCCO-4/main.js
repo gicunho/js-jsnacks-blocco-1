@@ -47,5 +47,5 @@ console.log(ipotenusa);
 var perimetro = triangolo.base + triangolo.altezza + ipotenusa;
 console.log(perimetro);
 
-var area = (ipotenusa * triangolo.altezza) / 2;
+var area = (triangolo.base * triangolo.altezza) / 2;
 console.log(area);
