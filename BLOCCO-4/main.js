@@ -42,10 +42,10 @@ for(key in palla){
 //Calcolare perimetro e area.
 
 var ipotenusa = Math.sqrt(Math.pow(triangolo.base, 2) + Math.pow(triangolo.altezza, 2));
-console.log(ipotenusa);
+console.log(ipotenusa.toFixed(2));
 
 var perimetro = triangolo.base + triangolo.altezza + ipotenusa;
-console.log(perimetro);
+console.log(perimetro.toFixed(2));
 
 var area = (triangolo.base * triangolo.altezza) / 2;
-console.log(area);
+console.log(area.toFixed(2));
